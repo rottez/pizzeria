@@ -17,7 +17,11 @@
         font-size: 2.5em
     }
     #sectionImages {
+<<<<<<< HEAD
     width: 50%; 
+=======
+    width: 80%; 
+>>>>>>> 7febc4a95611b51c6bad0a18f0798232a84609cf
     height: auto; 
     border-radius: 3%;    
     }
