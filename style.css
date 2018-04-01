@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Vollkorn', serif;
     background-color: #333;
@@ -28,6 +29,12 @@ button {
     text-transform: uppercase;
     text-align: center;   
 }
+.topnavDropdown{
+    display: none;
+}
+.topnav{
+    display: none;
+}
 .ostaliMeniSize {
     width: 80%;
     height: auto;
@@ -43,7 +50,6 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     box-shadow: 1px 1px #333;
-    border-top: 1px solid #333;
     background: orange;
     color: #333;
     font-size: 1.3em;
@@ -122,6 +128,8 @@ button {
 .ostaliMeniGrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    width: 1100px;
+    margin: auto;
 }
 .ostaliMeniGrid1{
     display: none;
@@ -137,5 +145,6 @@ button {
 .ostaliMeniBtn {
     margin: 10px 0;
 }
+
 
 

@@ -1,5 +1,24 @@
 $(document).ready(function(){
-    
+
+        $("#kontaktNav").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#footerz").offset().top
+            }, 1000);
+             $(".topnavDropdown").fadeOut(300);
+             $("#dropdownBtnClose").hide();
+             $("#dropdownBtn").fadeIn(300).delay(1000);
+        });
+ 
+    $("#dropdownBtn").click(function(){ //dropdownMENU OPEN (RESPOSNIVE)
+        $(".topnavDropdown").slideDown('slow');
+        $("#dropdownBtn").hide();
+        $("#dropdownBtnClose").show();
+    $("#dropdownBtnClose").click(function(){
+        $("#dropdownBtnClose").hide();
+        $("#dropdownBtn").show();
+        $(".topnavDropdown").slideUp('slow');
+    });  
+    });
     $("#openBtn1").click(function(){ //pizza section
         $("#openBtn1").hide();
         $("#dropdownPizza").slideDown('slow');
@@ -52,8 +71,8 @@ $(document).ready(function(){
     });
     $("#OstaloBtnClose1").click(function(){
         $("#burgeriList").slideUp('slow');
-        $("#OstaloBtnClose1").fadeOut(100);
-        $("#OstaloBtn1").fadeIn(300);
+        $("#OstaloBtnClose1").hide();
+        $("#OstaloBtn1").fadeIn();
     });
     // ----------------------------------
     $("#OstaloBtn2").click(function(){ //pomfrit
@@ -63,8 +82,8 @@ $(document).ready(function(){
     });
     $("#OstaloBtnClose2").click(function(){
         $("#friesList").slideUp('slow');
-        $("#OstaloBtnClose2").fadeOut(100);
-        $("#OstaloBtn2").fadeIn(300);
+        $("#OstaloBtnClose2").hide();
+        $("#OstaloBtn2").fadeIn();
     });
     // ----------------------------------
     $("#OstaloBtn3").click(function(){ //pancake
@@ -74,8 +93,8 @@ $(document).ready(function(){
     });
     $("#OstaloBtnClose3").click(function(){
         $("#pancakeList").slideUp('slow');
-        $("#OstaloBtnClose3").fadeOut(100);
-        $("#OstaloBtn3").fadeIn(300);
+        $("#OstaloBtnClose3").hide();
+        $("#OstaloBtn3").fadeIn();
     });
     // ----------------------------------
 });
