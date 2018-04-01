@@ -2,6 +2,34 @@
     .navbar {
         display: none;
     }
+    /*TOPNAV RESPONSIVE*/
+
+    .topnav {
+    display: block;  
+    background-color: orange;
+    overflow:hidden;
+    position: fixed;
+    width: 100%;
+    box-shadow: 1px 1px 1px  #333;
+
+    }
+    .topnavDropdown{
+    display: none;
+    background-color: orange;
+    text-align: left;
+    font-size: 1.7em;
+    padding: 1em;
+    height: 130px;
+    }
+    .topnavDropdown li {
+        list-style-type: none;
+          border-bottom: 3px dotted #333;
+    }
+    .responsiveIcons li{
+        display: inline;
+        border-bottom: none
+    }
+    /*TOPNAV RESPONSIVE END*/
     .mainWrapper {
     width: auto;
     margin: auto;
@@ -17,11 +45,7 @@
         font-size: 2.5em
     }
     #sectionImages {
-<<<<<<< HEAD
     width: 50%; 
-=======
-    width: 80%; 
->>>>>>> 7febc4a95611b51c6bad0a18f0798232a84609cf
     height: auto; 
     border-radius: 3%;    
     }
@@ -71,6 +95,7 @@
     }
     .ostaliMeniGrid1 {
     display: block;
+    font-size: 1.3em;
     }
     footer {
     color: #333;
@@ -79,6 +104,7 @@
     width: 300px;
     margin: auto;
     margin-top: 20px;
+    font-size: 1.5em;
 
     }
     footer > div{
