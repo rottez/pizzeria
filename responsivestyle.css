@@ -1,0 +1,81 @@
+@media (min-width: 300px ) and (max-width: 700px) {
+    .navbar {
+        display: none;
+    }
+    .mainWrapper {
+    width: auto;
+    margin: auto;
+    }
+    .sectionA { 
+    line-height: 3.5em;
+    height: 300px;
+    }
+    #scrollToPizza {
+        font-family: 'Vollkorn', serif; 
+        color: orange; 
+        padding-top: 125px; border-bottom: 3px dotted orange; 
+        font-size: 2.5em
+    }
+    #sectionImages {
+    width: 60%; 
+    height: auto; 
+    border-radius: 3%;    
+    }
+   .sectionB {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 20px;
+    font-size: 1.2em;
+    }
+    .sectionB h3 {
+    margin: 0;
+    color: orange;
+
+    }
+    .sectionB li{
+    padding-top: 2em;
+    line-height: .9em;
+    color: #eee;
+    list-style-type: none;
+   
+     margin: 0;
+    }
+    .sectionB p{
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0;
+    }
+
+    button {
+    border: none;
+    background-color: orange;
+    color: #333;
+    padding: .5em; 
+    text-transform: uppercase;
+    text-align: center;   
+    }
+
+    .ostaliMeniSize {
+    width: 50%;
+    height: auto;
+    border-radius: 3%;
+    }
+    .ostaliMeniGrid {
+    display: none;
+    }
+    .ostaliMeniGrid1 {
+    display: block;
+    }
+    footer {
+    color: #333;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+
+    }
+    footer > div{
+        border-bottom: 1px dotted #333;
+    }
+}
