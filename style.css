@@ -1,0 +1,141 @@
+body {
+    font-family: 'Vollkorn', serif;
+    background-color: #333;
+    text-align: center;
+    margin: 0;
+    color: lightgrey;
+}
+footer {
+    font-family: 'Vollkorn', serif;
+    color: #333;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1100px;
+    margin: auto;
+    margin-top: 50px;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+button {
+    font-family: 'Vollkorn', serif;
+    border: none;
+    background-color: orange;
+    color: #333;
+    margin-top: 20px;
+    padding: .5em; 
+    text-transform: uppercase;
+    text-align: center;   
+}
+.ostaliMeniSize {
+    width: 80%;
+    height: auto;
+    border-radius: 3%;
+}
+/* main wrapper */
+.mainWrapper {
+    width: 1100px;
+    margin: auto;
+}
+/* navbar */
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    box-shadow: 1px 1px #333;
+    border-top: 1px solid #333;
+    background: orange;
+    color: #333;
+    font-size: 1.3em;
+    padding: .7em 0 .7em 0;
+}
+.navbar li {
+    list-style-type: none;
+    display: inline;
+    padding: 0 1em 0 1em;
+}
+/* navbar_end */
+/* background image */
+.bgImg {
+    position: absolute;
+    background: url(img/pizza_top.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    z-index: -1;
+    opacity: 0.3;
+}
+/* section A */
+.sectionA { 
+    line-height: 2em;
+    height: 300px;
+}
+.sectionA h1 {
+    color: orange;
+    margin: 0;
+    padding-top: 150px;
+    font-size: 4em;
+}
+.sectionA h2 {
+    color: #eee;
+    font-size: 2em;
+    font-weight: 100;
+}
+/* section A_end */
+/* section B */
+#sectionImages {
+    width: 90%; 
+    height: auto; 
+    border-radius: 3%;    
+}
+  #scrollToPizza {
+    color: orange; 
+    padding-top: 125px; border-bottom: 3px dotted orange; 
+    font-size: 2.5em
+}
+.sectionB {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
+    font-size: 1.1em;
+}
+.sectionB h3 {
+    font-size: 1.5em;
+    margin: 0;
+    color: orange;
+}
+.sectionB li {
+    padding-top: 1em;
+    line-height: .9em;
+    color: #eee;
+    list-style-type: none;
+    margin: 0;
+}
+.sectionB p {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* ostali meni */
+.ostaliMeniGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.ostaliMeniGrid1{
+    display: none;
+}
+.meniWrapper {
+    display: grid;
+    grid-template-columns: 60% 30%;
+}
+.meniWrapper li {
+    list-style-type: none;
+    color: #eee;
+}
+.ostaliMeniBtn {
+    margin: 10px 0;
+}
+
+
